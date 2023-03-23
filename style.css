@@ -1,0 +1,74 @@
+/* Fontawesome 4.7 */
+@import url("https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+
+body {
+  width: 100%;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  text-align: center;
+}
+
+.profiles img {
+  width: 100px;
+  filter: grayscale(1);
+}
+
+.profiles img.active {
+  filter: grayscale(0);
+}
+
+.text {
+  display: flex;
+  justify-content: center;
+}
+
+.text p {
+  width: 500px;
+  display: flex;
+  justify-content: center;
+  display: none;
+}
+
+.text p.active {
+  display: block;
+}
+
+.text p span {
+  font-weight: bold;
+  display: block;
+  font-size: 12px;
+  margin-top: 10px;
+}
+
+.star {
+  width: 200px;
+  background-color: #3a3a3a;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  border-radius: 20px;
+}
+
+.star .fa {
+  color: #fff;
+  margin-top: 15px;
+  font-size: 20px;
+}
+
+.star .fa.active {
+  color: yellow;
+  text-shadow: 0 0 10px yellow;
+}
+
+.star p {
+  color: #fff;
+}
+
+.star img {
+  vertical-align: middle;
+  margin-right: 2px;
+}
